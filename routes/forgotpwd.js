@@ -3,10 +3,10 @@ var express = require("express");
 var router = express.Router();
 const nodemailer = require("nodemailer");
 var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "db_freelanceportal",
+  host: "bseii7j52bbzijj17kiq-mysql.services.clever-cloud.com",
+  user: "uorzsmwrihg8zem7",
+  password: "QJpDd3w4vCsjSnqs6Xj7",
+  database: "bseii7j52bbzijj17kiq"
 });
 
 router.post("/", (req, res) => {
